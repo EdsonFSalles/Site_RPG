@@ -4,55 +4,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="styleMedia.CSS">
+    <link rel="stylesheet" href="Style/styleHeader.css">
+    <link rel="stylesheet" href="Style/StyleCSS.CSS">
+    <link rel="stylesheet" href="Style/styleMain.CSS">
+    <link rel="stylesheet" href="Style/styleFooter.css">
+    <!-- <link rel="stylesheet" href="Style/styleMedia.CSS"> -->
     <link rel="shortcut icon" href="img/cabecario/img_porta/icon/imgPorta.ico" type="image/x-icon">
-    <title>Mundo do RPG</title>
 
+
+    <title>Mundo do RPG</title>
 </head>
 
 <body>
-    <div class="wrapper">
-        <header class="cabecario">
+    <div id="conteiner">
+        <!-- Cabeçario site -->
+        <header class="cabecario" style="grid-area: cabecario;">
             <div id="titulo" style="grid-area: T1;">
                 <h1>Mundo do R.P.G</h1>
             </div>
+
             <div id="Intro" style="grid-area: par; padding-top: 10px;">
-                <p>Neste site temos um resumo de R.P.G para você <br> que gostaria de se aventurar em mundos <br>
-                    desconhecidos. <br> </p>
-                <ul style="grid-area: ul;">
-                    <label for="" style="grid-area: label; padding-top: 10px;">Você verá:</label>
-                    <li style="grid-area: li1; padding-right: 100px;"> Personagens</li>
-                    <li style="grid-area: li2; width: 200px;"> Mapas</li>
-                    <li style="grid-area: li3;"> Armas</li>
-                    <li style="grid-area: li4;"> +BONUS</li>
-                </ul>
+                <p>Bem-vindo! <br> Nesse site você poderá entender um pouco sobre o clássico mundo do RPG. <br> <br>
+                </p>
+                <button class="botao-rpg"> BORA lÁ!!!</button>
             </div>
 
             <div id="imgPorta" style="grid-area: img;"></div>
         </header>
 
-        <main>
-            <div class="separacao">
-                <section class="sectionSep">
-
+        <!-- Corpo do site -->
+        <main style="grid-area: main;">
+            <!-- primeria divisao -->
+            <section class="separacao" style="grid-area: divis01;">
+                <section class="sectionStyle" id="sectionSep01">
                 </section>
-            </div>
+            </section>
 
-            <section class="conteudo"></section>
+            <!-- conteudo -->
+            <section class="conteudo" style="grid-area: cont01;">
+            </section>
 
-            <div class="separacao">
-                <section class="sectionSep"></section>
-            </div>
+            <!-- Segunda divisao -->
+            <section class="separacao" style="grid-area: divis02;">
+                <section class="sectionStyle" id="sectionSep02">
+                </section>
+            </section>
 
-            <section class="conteudo"></section>
+            <!-- conteudo -->
+            <section class="conteudo" style="grid-area: cont02;">
+            </section>
         </main>
 
-        <footer class="rodape">
+        <!-- Rodapé -->
+        <footer class="rodape" style="grid-area: rodape;">
             <div id="fontes">
                 <th>fontes</th>
                 <ul>
-                    <li><a href="criarPasta Imagens">PINTEREST</a></li>
+                    <li><a href="criarPasta Imagens">PINTEREST</a>
+                        s</li>
                 </ul>
             </div>
         </footer>

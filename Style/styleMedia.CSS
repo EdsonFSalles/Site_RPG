@@ -1,17 +1,18 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=MedievalSharp&display=swap');
-*{
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
- }
 
- :root{
-    --Color001: rgb(1 24 1);
-    --Color002:  rgb(31, 30, 30); 
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
 }
 
- @media (max-width: 500px) {
+:root {
+  --Color001: rgb(1 24 1);
+  --Color002: rgb(31, 30, 30);
+}
+
+@media (max-width: 500px) {
 
   body {
     width: 100%;
@@ -19,8 +20,8 @@
     background: black url(img/cabecario/img_porta/fundoIndex.png) top center repeat-y scroll;
     background-size: cover;
     background-position: center center;
-    
-    
+
+
   }
 
   .wrapper {
@@ -60,42 +61,44 @@
     background-repeat: no-repeat;
   }
 
- #titulo{
-         width: auto;
-         height: 80px;
-         background-position: center center;
-         justify-self: left;
-         align-self: center;
-         background-repeat: no-repeat;
-         color: yellow;
-        text-shadow: 5px 0px 0px black;
-        font: bolder  clamp(1.5rem, 4vw, 3rem) "Eagle lake", serif;
-        text-align: center;
-    }
+  #titulo {
+    width: auto;
+    height: 80px;
+    background-position: center center;
+    justify-self: left;
+    align-self: center;
+    background-repeat: no-repeat;
+    color: yellow;
+    text-shadow: 5px 0px 0px black;
+    font: bolder clamp(1.5rem, 4vw, 3rem) "Eagle lake", serif;
+    text-align: center;
+  }
 
-    #Intro p{
-        padding-top: 10px;
-        font-size: clamp(1.5rem, 4vw, 0.7rem);
-        text-align: center;
-        color: white;
-    }
+  #Intro p {
+    padding-top: 10px;
+    font-size: clamp(1.5rem, 4vw, 0.7rem);
+    text-align: center;
+    color: white;
+  }
 
-    #Intro{
-        height: 300px;
-          font: bolder 3em "Eagle lake", serif;
-    }
-     #Intro > ul{
-        display: grid;
-        height: 50px;
-        grid-template-rows: auto auto auto;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-areas: 
-        "label label label "
-        "li1 li2 li3"
-        "li4 li4 li4";
-        gap: 10px;
-        padding-left: 80px;
-        color: yellow;
-        text-shadow: black -4px 2px 8px;;
-    }
+  #Intro {
+    height: 300px;
+    font: bolder 3em "Eagle lake", serif;
+  }
+
+  #Intro>ul {
+    display: grid;
+    height: 50px;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+      "label label label "
+      "li1 li2 li3"
+      "li4 li4 li4";
+    gap: 10px;
+    padding-left: 80px;
+    color: yellow;
+    text-shadow: black -4px 2px 8px;
+    ;
+  }
 }

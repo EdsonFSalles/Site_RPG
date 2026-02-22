@@ -1,0 +1,89 @@
+#conteiner {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "cabecario" "main" "rodape";
+    gap: 15px;
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.cabecario {
+    display: grid;
+    grid-template-columns: 950px auto;
+    grid-template-rows: 150px auto;
+    grid-template-areas:
+        "T1 T1"
+        "par img";
+    background-image: url(/img/cabecario/img_porta/portaRpg.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 1fr 800px;
+    justify-self: center;
+    align-self: center;
+    width: 1200px;
+    height: 600px;
+    box-shadow: 0px 0px 9px 0px var(--Color001);
+
+}
+
+#imgPorta {
+    width: auto;
+    height: auto;
+    justify-items: end;
+    align-items: left;
+    background-position: center center;
+    background-image: url(/img/cabecario/img_porta/imgPorta.png);
+    background-repeat: no-repeat;
+    grid-column: 2/2;
+}
+
+#titulo {
+    width: 1200px;
+    height: 80px;
+    background-position: center center;
+    justify-self: left;
+    align-self: center;
+    background-repeat: no-repeat;
+    color: yellow;
+    text-shadow: 5px 0px 0px black;
+    font: bolder 3.5em "Eagle lake", serif;
+    text-align: center;
+}
+
+#Intro {
+    height: 400px;
+    font: bolder 3.0em "Arial, serif";
+}
+
+#Intro p {
+    padding-top: 50px;
+    padding-left: 15px;
+    font-size: 1em;
+    text-align: center;
+    color: white;
+}
+
+.botao-rpg {
+    font-family: 'MedievalSharp', serif;
+    font-size: 1.6rem;
+    padding: 16px 48px;
+
+    color: #f5f1dc;
+    background: linear-gradient(to bottom,
+            #c9a34e,
+            #8b6b2e);
+
+    border: 3px solid #3b2a12;
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    box-shadow:
+        0 0 15px rgba(201, 163, 78, 0.4),
+        inset 0 0 8px rgba(0, 0, 0, 0.5);
+
+    transition: transform 0.3s ease,
+        box-shadow 0.3s ease;
+}

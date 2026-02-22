@@ -1,0 +1,25 @@
+.rodape {
+    background-color: #1d021fbd;
+    color: white;
+    width: auto;
+    height: 600px;
+    text-align: left;
+}
+
+#fontes {
+    background-color: transparent;
+    width: 200px;
+    height: 150px;
+    padding: 26px 0px 0px 213px;
+    color: white;
+}
+
+#fontes ul {
+    list-style-type: none;
+}
+
+#fontes a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-decoration: none;
+}

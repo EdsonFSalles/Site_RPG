@@ -1,0 +1,21 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=MedievalSharp&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+:root {
+    --Color001: rgb(1 24 1);
+    --Color002: rgb(31, 30, 30);
+}
+
+body {
+    background: black url(/img/cabecario/img_porta/fundoIndex.png) top center repeat-y fixed;
+    background-size: cover;
+    background-position: center center;
+    height: 3500px;
+    overflow: hidden;
+}
